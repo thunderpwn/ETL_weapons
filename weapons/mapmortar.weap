@@ -1,0 +1,11 @@
+weaponDef
+{
+	// This basically fills out weaponInfo_t
+	client {
+		flashDlightColor	1 0.7 0.5
+		flashSound			"sound/weapons/artillery/mortar_fire.wav"
+		missileSound		"sound/weapons/artillery/mortar_shell_1.wav"
+		missileTrailFunc	"GrenadeTrail"
+		missileDlight		400
+	}
+}

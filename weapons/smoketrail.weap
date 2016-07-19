@@ -1,0 +1,8 @@
+weaponDef
+{
+	// This basically fills out weaponInfo_t
+	client {
+		missileTrailFunc	"PyroSmokeTrail"					// supports "GrenadeTrail", "RocketTrail", "PyroSmokeTrail" and "DynamiteTrail" (we REALLY want a particle system for this)
+		missileDlight		200
+	}
+}
