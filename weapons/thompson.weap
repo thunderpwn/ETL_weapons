@@ -2,12 +2,12 @@ weaponDef
 {
 	// This basically fills out weaponInfo_t
 	client {
-		standModel			"models/weapons2/thompson/thompson_stand.mdc"	// weapon pickup 'stand' (do we still use this?)
-		pickupModel			"models/weapons2/thompson/thompson.md3"
+		//standModel			"models/weapons2/thompson/thompson_stand.mdc"	// weapon pickup 'stand' (do we still use this?)
+		pickupModel			"models/weapons2/thompson/3rdthompson.md3"
 		//pickupSound		"sound/misc/w_pkup.wav"
 		
 		weaponConfig		"models/weapons2/thompson/weapon.cfg"
-		handsModel			"models/weapons2/thompson/v_thompson_hand.mdc"
+		handsModel			"models/weapons2/thompson/fp_thompson_hand.md3"
 		
 		flashDlightColor	1.0 0.6 0.23
 		flashSound			"sound/weapons/thompson/thompson_fire.wav"		// supports up to 4 flash sounds
@@ -37,8 +37,8 @@ weaponDef
 		//modModel 1		""
 		
 		firstPerson {
-			model			"models/weapons2/thompson/v_thompson.md3"
-			flashModel		"models/weapons2/thompson/v_thompson_flash.mdc"
+			model			"models/weapons2/thompson/fp_thompson.md3"
+			flashModel		"models/weapons2/thompson/fp_flash.md3"
 
 			// weapon building
 			// the parts are numbered because there are some hardcoded references for some weapons to certain parts
@@ -47,17 +47,17 @@ weaponDef
 				part 0
 				{
 					tag		"tag_barrel"
-					model	"models/weapons2/thompson/v_thompson_barrel.mdc"
+					model	"models/weapons2/thompson/barrel.md3"
 				}
 				part 1
 				{
 					tag		"tag_barrel2"
-					model	"models/weapons2/thompson/v_thompson_barrel2.mdc"
+					model	"models/weapons2/thompson/barrel2.md3"
 				}
 				part 2
 				{
 					tag		"tag_barrel3"
-					model	"models/weapons2/thompson/v_thompson_barrel3.mdc"
+					model	"models/weapons2/thompson/barrel3.md3"
 					axisskin	"models/weapons2/thompson/thompson_axis.skin"
 					alliedskin	"models/weapons2/thompson/thompson_allied.skin"
 				}
@@ -65,8 +65,8 @@ weaponDef
 		}
 		
 		thirdPerson {
-			model			"models/weapons2/thompson/thompson.mdc"
-			flashmodel		"models/weapons2/thompson/thompson_flash.mdc"
+			model			"models/weapons2/thompson/3rdthompson.md3"
+			flashmodel		"models/weapons2/thompson/tag_flash.md3"
 		}
 	}
 }
